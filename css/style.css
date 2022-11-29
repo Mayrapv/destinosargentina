@@ -1,0 +1,87 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+/*-----Header-----*/
+
+header {
+    width: 100%;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #ff9999;(52,59,64,0,9);
+    padding: 8px; 50px;
+    color; black
+}
+
+
+ul,
+ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+color: black;}
+
+header ul li{
+    display: inline-block;
+    margin-right: 5%;
+}
+
+header h1{
+    display: inline-block;
+    width: 90%;
+}
+
+header nav ul{
+    display: flex;
+    gap: 30px;
+}
+
+
+.portada{
+background-color: #ffe6e6;
+height: 100vh;
+background-image: url("../img/turismo-2.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+}
+
+.mejoresdestinos{
+height: 50vh;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+
+
+
+
+.imgmendoza{
+width: 35%;
+}
+.imgmendoza img {
+    width: 100%;
+}
+
+footer{
+    background-color: #FADBD8;
+}
+
+h1{
+
+    color:rosybrown ;
+}
+
+footer h4{
+    color: #E57373;
+}
+
+footer ul li{
+    color: #EF5350;
+}
