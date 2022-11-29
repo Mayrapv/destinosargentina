@@ -12,11 +12,23 @@ header {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: #ff9999;(52,59,64,0,9);
-    padding: 8px; 50px;
-    color; black
+    background-color: #ff9999(52,59,64,0,9);
+    padding: 8px 50px;
+    position: fixed;
+    top: 0px;
 }
 
+
+header nav ul{
+    display: flex;
+    gap: 30px;
+}
+
+/*-----Portada-----*/
+.portada {
+    height: 100vh;
+    color: black;
+}
 
 ul,
 ol{
@@ -36,10 +48,6 @@ header h1{
     width: 90%;
 }
 
-header nav ul{
-    display: flex;
-    gap: 30px;
-}
 
 
 .portada{
