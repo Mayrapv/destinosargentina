@@ -13,11 +13,8 @@ header {
     justify-content: space-around;
     align-items: center;
     background-color: #ff9999(52,59,64,0,9);
-    padding: 8px 50px;
-    position: fixed;
-    top: 0px;
+    padding: 8px 60px;
 }
-
 
 header nav ul{
     display: flex;
@@ -28,7 +25,21 @@ header nav ul{
 .portada {
     height: 100vh;
     color: black;
+
+    background-color: #ff9999;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
 }
+
+
 
 ul,
 ol{
