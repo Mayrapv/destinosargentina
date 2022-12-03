@@ -4,7 +4,11 @@
     box-sizing:border-box;
 }
 
-/*-----Header-----*/
+.logo-header{
+    height: 250px;
+}
+
+/*-----Header-----
 
 header {
     width: 100%;
@@ -20,8 +24,7 @@ header nav ul{
     display: flex;
     gap: 30px;
 }
-
-/*-----Portada-----*/
+/*-----Portada-----
 .portada {
     height: 100vh;
     color: black;
