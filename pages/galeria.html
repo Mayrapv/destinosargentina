@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css">
     <title>Document</title>
@@ -42,51 +43,260 @@
 
 
 <main>
-    <div>
-<H2>Mendoza</H2>
-<img src="../img/galeria-cañondelatuel.jpg" alt="Cañon del atuel, Mendoza">
-<img src="../img/galeria-mendozaaltamontaña.jpg" alt="alta montaña, Mendoza">
-<img src="../img/galeria-mendozalasleñas.jpg" alt="las leñas, Mendoza">
-<img src="../img/galeria-mendozasanrafael.jpg" alt="vista San Rafael, Mendoza">
-</div>
 
-<div>
-<h2>Salta</h2>
-</div>
 
-<div>
-    <h2>Bariloche</h2>
+<section>
+  <h2>Mendoza</h2>
+<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="../img/galeria-mendozaaltamontaña.jpg" class="d-block w-100" alt="Alta Montaña">
+      <div class="carousel-caption d-none d-md-block">
+        <h3>Puente del inca</h3>
+        <p>Puente del Inca está incluido en el sistema vial andino “Qhapac Ñan” Camino del Inca y por lo tanto integra un sitio declarado Patrimonio Mundial por la Unesco</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="../img/galeria-mendozasanrafael.jpg" class="d-block w-100" alt="Vista Lago San Rafael">
+      <div class="carousel-caption d-none d-md-block">
+        <h3>San Rafael</h3>
+        <p>Al pie de la Cordillera de los Andes y a tan sólo 389 km. del Paso Internacional Los Libertadores o 331 km. del Paso Pehuenche, una tierra repleta de bellezas naturales y grandes experiencias.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="../img/galeria-cañondelatuel.jpg" class="d-block w-100" alt="Cañon del Atuel">
+      <div class="carousel-caption d-none d-md-block">
+        <h3>Cañon del atuel</h3>
+        <p>El cañón del Atuel es un estrecho cañón donde desemboca el río Atuel. Se encuentra en el Valle Grande, perteneciente al departamento San Rafael, en la provincia de Mendoza</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
 </div>
+</section>
 
-<div>
-    <h2>Cataratas del Iguazu</h2>
+<section>
+  <h2>Salta</h2>
+<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="../img/galeria-salta-salar.jpg" class="d-block w-100" alt="El Salar">
+      <div class="carousel-caption d-none d-md-block">
+        <h3>El Salar</h3>
+        <p></p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="../img/galeria-salta-trendelasnubes.jpg" class="d-block w-100" alt="Vista Tren de las Nubes">
+      <div class="carousel-caption d-none d-md-block">
+        <h3>Tren de las Nubes</h3>
+        <p></p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="../img/galeria-salta-cuestadelobispo.jpg" class="d-block w-100" alt="Vista Camino a Cachi">
+      <div class="carousel-caption d-none d-md-block">
+        <h3>Cuesta del Obispo</h3>
+        <p></p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
 </div>
-<div>
-    <h2>Buenos Aires</h2>
+</section>
+
+<section>
+  <h2>Bariloche</h2>
+<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="../img/galeria-bariloche-cerrocampanario.jpg" class="d-block w-100" alt="Vista desde el Cerro Campanario">
+      <div class="carousel-caption d-none d-md-block">
+        <h3>Cerro Campanario</h3>
+        <p></p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="../img/galeria-bariloche-pnaturalnh.jpg" class="d-block w-100" alt="Reserva los Arrayanes">
+      <div class="carousel-caption d-none d-md-block">
+        <h3>Reserva los Arrayanes</h3>
+        <p></p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="../img/galeria-bariloche-lagonahuelhuapi.jpg" class="d-block w-100" alt="Lago nahuel Huapi">
+      <div class="carousel-caption d-none d-md-block">
+        <h3>Lago Nahuel Huapi</h3>
+        <p></p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
 </div>
+</section>
+
+<section>
+  <h2>Cataratas del Iguazu</h2>
+<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="../img/galeria-cataratas-frontal.jpg" class="d-block w-100" alt="Cataratas del Iguazu">
+      <div class="carousel-caption d-none d-md-block">
+        <h3>Cataratas del Iguazu</h3>
+        <p></p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="../img/galeria-cataratas.jpg" class="d-block w-100" alt="Cataratas del Iguazu">
+      <div class="carousel-caption d-none d-md-block">
+        <h3>Cataratas del Iguazu</h3>
+        <p>Dentro del parque, en el río Iguazú, las famosas Cataratas del Iguazú poseen varias cascadas separadas, incluida la icónica Garganta del Diablo. El parque circundante tiene una fauna diversa, incluidos coatíes, jaguares y tucanes, además de senderos y plataformas con miradores.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="../img/galeria-catarataslunallena.jpg" class="d-block w-100" alt="Cataratas del Iguazu">
+      <div class="carousel-caption d-none d-md-block">
+        <h3>Paseo de Luna Llena</h3>
+        <p>Descubrí la magia de las Cataratas del Iguazú y de la selva misionera de forma única: de noche y con la luz de la luna llena iluminando un paisaje inolvidable, en un recorrido de dos horas y media de duración.</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+</section>
+
+<section>
+  <h2>Buenos Aires</h2>
+<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="../img/galeria-mendozaaltamontaña.jpg" class="d-block w-100" alt="Alta Montaña">
+      <div class="carousel-caption d-none d-md-block">
+        <h3>Puente del inca</h3>
+        <p>Puente del Inca está incluido en el sistema vial andino “Qhapac Ñan” Camino del Inca y por lo tanto integra un sitio declarado Patrimonio Mundial por la Unesco</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="../img/galeria-mendozasanrafael.jpg" class="d-block w-100" alt="Vista Lago San Rafael">
+      <div class="carousel-caption d-none d-md-block">
+        <h3>San Rafael</h3>
+        <p>Al pie de la Cordillera de los Andes y a tan sólo 389 km. del Paso Internacional Los Libertadores o 331 km. del Paso Pehuenche, una tierra repleta de bellezas naturales y grandes experiencias.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="../img/galeria-cañondelatuel.jpg" class="d-block w-100" alt="Cañon del Atuel">
+      <div class="carousel-caption d-none d-md-block">
+        <h3>Cañon del atuel</h3>
+        <p>El cañón del Atuel es un estrecho cañón donde desemboca el río Atuel. Se encuentra en el Valle Grande, perteneciente al departamento San Rafael, en la provincia de Mendoza</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+</section>
+
 </main>
-<footer>
-    <div>
-        <h4>Turisteando</h4>
-        <ul>
-            <li>Inicio</li>
-            <li>Donde Ir</li>
-            <li>Galeria</li>
-            <li>Noticias</li>
-            <li>Contacto</li>
-        </ul>
-    </div>
-    <div>
-        <h4>Siguenos</h4>
-        <ul>
-            <li>Facebook</li>
-            <li>Instagram</li>
-            <li>Twitter</li>
-            <li>TikTok</li>
-        </ul>
-    </div>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="row justify-content-lg-between align-items-lg-center">
     
+          <div class="d-flex flex-column align-items-center p-4 col-lg-3">
+            <img src="../img/montaña-logoe.jpg" alt="" width="30" height="24">
+            <span>Turisteando, todos los derechos reservados.</span>
+            <span>turisteando@gmail.com</span>
+          </div>
+    
+          <div class="p-4 col-lg-3">
+            <h3 class="text-center">Nuestras Redes</h3>
+            <div class="d-flex justify-content-around fs-2">
+              <i class="bi bi-instagram"></i>
+              <i class="bi bi-facebook"></i>
+              <i class="bi bi-tiktok"></i>
+              <i class="bi bi-twitter"></i>
+            </div>
+          </div>
+    
+          <div class="p-4 col-lg-5">
+            <h3>Suscribite a nuestro Newsletter</h3>
+            <form action="" class="row">
+              <div class="mb-3 col-10">
+                <input type="email" class="form-control" id="newsletter" placeholder="name@example.com">
+              </div>
+              <div class="col-2">
+                <input type="submit" value="Enviar" class="btn btn-pink">
+              </div>
+            </form>
+          </div>
+    
+          <div class="d-flex justify-content-center">
+            <span>Turisteando | Todos los derechos reservados</span>
+          </div>
+    
+        </div>
+      </div>
     </footer>
+    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 
 </body>
