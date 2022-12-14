@@ -1,8 +1,15 @@
-h1{
-    color: red;
+header {
+  background-color: pink;
+}
+header ul {
+  list-style: none;
+}
+header ul li {
+  display: inline-block;
+}
+header ul li a {
+  text-decoration: none;
+  color: black;
 }
 
-/*------FOOTER-------*/
-.footer{
-    background-color: #FADBD8;
-}
+/*# sourceMappingURL=style.css.map */
