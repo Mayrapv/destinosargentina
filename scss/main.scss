@@ -1,19 +1,21 @@
-@import "./utils/variables"
-@import "./utils/mixin"
+@import "./utils/mixin";
+@import "./utils/variables";
 
 
-@import "./base/base"
 
-@import "./components/botones"
-@import "./components/navbar"
-@import "./components/tarjeta"
-@import "./components/carousel"
 
-@import "./pages/contacto"
-@import "./pages/dondeir"
-@import "./pages/galeria"
-@import "./pages/index"
-@import "./pages/noticias"
+@import "./base/base";
+
+@import "./components/botones";
+@import "./components/navbar";
+@import "./components/tarjeta";
+@import "./components/carousel";
+
+@import "./pages/contacto";
+@import "./pages/dondeir";
+@import "./pages/galeria";
+@import "./pages/index";
+@import "./pages/noticias";
 
 
 
