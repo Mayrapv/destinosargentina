@@ -1,18 +1,17 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+/* Error: expected ";".
+ *   ,
+ * 1 | @import "./utils/variables"
+ *   |                            ^
+ *   '
+ *   scss\main.scss 1:28  root stylesheet */
 
-nav ul {
-  list-style: none;
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: 'Error: expected ";".\a   \2577 \a 1 \2502  @import "./utils/variables"\d\a   \2502                             ^\a   \2575 \a   scss\\main.scss 1:28  root stylesheet';
 }
-nav ul li {
-  display: inline-block;
-}
-nav ul li a {
-  text-decoration: none;
-  color: black;
-}
-
-/*# sourceMappingURL=style.css.map */

@@ -1,26 +1,4 @@
-*{
-    margin:0;
-    padding: 0;
-    box-sizing:border-box;
-}
-
-.header{
-    background-color: #FADBD8;
-}
-
-.imagen-portada{
-    
-}
-
-.portada{
-    background-color: #FDEDEC;
-}
 
 
-.footer{
-    height: 50px;
-    line-height: 50px;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-}
+
+
