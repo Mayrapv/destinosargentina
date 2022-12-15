@@ -1,13 +1,16 @@
-header {
-  background-color: pink;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-header ul {
+
+nav ul {
   list-style: none;
 }
-header ul li {
+nav ul li {
   display: inline-block;
 }
-header ul li a {
+nav ul li a {
   text-decoration: none;
   color: black;
 }
